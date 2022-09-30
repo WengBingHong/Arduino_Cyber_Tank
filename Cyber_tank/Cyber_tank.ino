@@ -19,9 +19,6 @@
 #define step_IN3  12
 #define step_IN4  13
 
-#define V_Resistor  A0
-
-
 SoftwareSerial btSerial(2, 3); // RX, TX
 Unistep2 stepper(step_IN1, step_IN2, step_IN3, step_IN4, 4096, 900);// IN1, IN2, IN3, IN4, total step, delay of every step(in micros)
 
