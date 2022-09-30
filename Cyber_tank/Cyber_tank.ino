@@ -89,7 +89,7 @@ void setup() {
   pinMode(L298N_ENA, OUTPUT);
   pinMode(L298N_ENB, OUTPUT);
 
-  digitalWrite(L298N_IN1, LOW);       // Set the L298N Input pins to LOW //strange IN_1's HIGH is LOW vice versa
+  digitalWrite(L298N_IN1, LOW);       // Set the L298N Input pins to LOW 
   digitalWrite(L298N_IN2, LOW);
   digitalWrite(L298N_IN3, LOW);
   digitalWrite(L298N_IN4, LOW);
